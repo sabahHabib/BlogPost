@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16bd7030-55b1-4a39-90b1-12cab04f111e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/blogpost.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/auth/auth_dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/auth/auth_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/blogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/blogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/services/hashing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routers/signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/ProtectedRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/contexts/ProfileContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/loginUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/registerUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/tokenUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useBlogs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/AddBlog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/BlogList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/BlogPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/EditBlog.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/app/schemas.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rAIt2ZLDUgEzhgtaBtx2fYphUE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Sabah/Desktop/fastapi/blogpost",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "promo.typescript"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sabah\Desktop\blogpost\frontend\src\components\services" />
+      <recent name="C:\Users\Sabah\Desktop\blogpost\frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sabah\Desktop\blogpost\backend\app\routers" />
+      <recent name="C:\Users\Sabah\Desktop\blogpost\backend\app\auth\services" />
+      <recent name="C:\Users\Sabah\Desktop\blogpost\frontend\src\components\authentication" />
+      <recent name="C:\Users\Sabah\Desktop\blogpost\frontend\src\components" />
+      <recent name="C:\Users\Sabah\Desktop\blogpost\frontend\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16bd7030-55b1-4a39-90b1-12cab04f111e" name="Changes" comment="" />
+      <created>1735995663845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735995663845</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/app/main.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
