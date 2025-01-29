@@ -5,51 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16bd7030-55b1-4a39-90b1-12cab04f111e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blogpost.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/auth/auth_dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/auth/auth_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/blogs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/blogs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/models/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/services/hashing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routers/signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/ProtectedRoute.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authentication/Signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/contexts/ProfileContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/loginUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/registerUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/helpers/tokenUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useBlogs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/AddBlog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/BlogList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/BlogPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/EditBlog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blogpost.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blogpost.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/versions/187a946db127_table_added.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/versions/81f9723a4fb5_update_my_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/versions/d3104aadb2d3_add_my_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Sabah/Desktop/fastapi/blogpost",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Sabah/Desktop/fastapi/speechtotextapp",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "promo.typescript"
   }
@@ -117,16 +85,5 @@
       <updated>1735995663845</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/app/main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

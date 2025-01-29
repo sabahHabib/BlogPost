@@ -12,10 +12,8 @@ function Header() {
     if (token) {
       setIsLoggedIn(true);
       fetchProfile();
-    } else {
-      setIsLoggedIn(false);
     }
-  }, [fetchProfile]);
+  }, []);
 
 
 
@@ -35,7 +33,7 @@ function Header() {
         <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 mb-3 border-bottom">
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <a href="/blog" className="nav-link px-2 link-secondary">
+              <a href="/" className="nav-link px-2 link-secondary">
                 Blogs
               </a>
             </li>
@@ -49,10 +47,10 @@ function Header() {
           </ul>
 
           <div className="col-md-3 text-end">
-            {isLoggedIn && profile && (
+            {isLoggedIn ? (
               <>
                 <span className="me-2 px-3">
-                  Hello, {profile.f_name} {profile.l_name}
+                  {profile?.f_name} {profile?.l_name}
                 </span>
                 <button
                   type="button"
@@ -62,9 +60,7 @@ function Header() {
                   Logout
                 </button>
               </>
-            )}
-
-            {!isLoggedIn && (
+            ) : (
               <>
                 <button
                   type="button"

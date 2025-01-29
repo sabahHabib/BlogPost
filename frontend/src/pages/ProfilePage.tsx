@@ -49,10 +49,10 @@ function ProfilePage() {
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-md-8 col-lg-6">
-          <div className="card shadow-lg p-4">
-            <h1 className="text-center mb-4 text-primary">
+          <div className="card p-4">
+            <h2 className="text-center mb-4">
               {profileExists ? (isEditing ? 'Edit Profile' : 'My Profile') : 'Create Your Profile'}
-            </h1>
+            </h2>
 
             {profileExists && !isEditing ? (
               <div>

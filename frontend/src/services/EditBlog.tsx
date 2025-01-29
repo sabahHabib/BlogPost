@@ -44,7 +44,7 @@ const EditBlog: React.FC = () => {
       const { success, message } = await editBlog(Number(id), form);
 
       if (success) {
-        navigate("/blog");
+        navigate("/");
       } else {
         setError(message || "Failed to update blog. Please try again.");
       }

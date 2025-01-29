@@ -18,7 +18,7 @@ const AddBlog: React.FC = () => {
     const { success, blog, message } = await addBlog(form);
 
     if (success) {
-      navigate("/blog");
+      navigate("/");
     } else {
       alert(message || "Failed to create blog. Please try again.");
     }

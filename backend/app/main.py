@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from . import models
 from .database import engine
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import blogs, signup, login,profile
+from .routers import blogs, signup, login, profile
 
 app = FastAPI()
 models.Base.metadata.create_all(engine)

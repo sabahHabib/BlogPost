@@ -1,45 +1,57 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { api } from "../api/api";
-import { Blog } from "../hooks/useBlogs";
+import { useParams} from "react-router-dom";
+import { useBlogs, Blog } from "../hooks/useBlogs";
 
-const BlogPage: React.FC = () => {
+
+const BlogPage = () => {
   const { blogId } = useParams<{ blogId: string }>();
+  const { fetchBlogById, error, loading } = useBlogs();
   const [blog, setBlog] = useState<Blog | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
-
   useEffect(() => {
-    const fetchBlog = async () => {
-      try {
-        const response = await api.get<Blog>(`/blog/${blogId}`);
-        setBlog(response.data);
-        setError(null);
-      } catch (error) {
-        setError("Failed to load blog. Please try again.");
-        console.error("Error fetching blog:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (blogId) fetchBlog();
+    if (blogId) {
+      const getBlog = async () => {
+        const fetchedBlog = await fetchBlogById(Number(blogId));
+        setBlog(fetchedBlog);
+      };
+      getBlog();
+    }
   }, [blogId]);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>{error}</div>;
+  if (loading) {
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
+
+      </div>
+    );
+  }
+
+  if (error) {
+    return <div className="alert alert-danger" role="alert">Error: {error}</div>;
+  }
+
+  if (!blog) {
+    return <div className="alert alert-warning" role="alert">No blog found with this ID.</div>;
+  }
 
   return (
     <div className="container mt-5">
-      {blog ? (
-        <>
-          <h1 className="text-center mb-4">{blog.title}</h1>
-          <p>{blog.body}</p>
-        </>
-      ) : (
-        <p>Blog not found.</p>
-      )}
+      <div className="card ">
+
+        <div className="card-header d-flex align-items-center text-secondary">
+          <div>
+            <h4 className="mb-0 ">{blog.title}</h4>
+          </div>
+
+        </div>
+
+        <div className="card-body">
+          <p className="">{blog.body}</p>
+        </div>
+        <div className="card-footer text-center">
+        </div>
+      </div>
     </div>
+
   );
 };
 

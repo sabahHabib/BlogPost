@@ -26,7 +26,7 @@ const Login: React.FC = () => {
     setMessage(result.message);
 
     if (result.success) {
-      setTimeout(() => navigate("/blog"));
+      setTimeout(() => navigate("/"));
     }
   }
 
